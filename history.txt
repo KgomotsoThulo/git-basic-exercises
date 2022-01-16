@@ -1,0 +1,120 @@
+    1  cd
+    2  cd c
+    3  cd C
+    4  /
+    5  cd
+    6  cd /c
+    7  ls
+    8  cd /Git
+    9  cd /git
+   10  cd git/
+   11  ls
+   12  git config --global user.name KgomotsoThulo
+   13  git config --global user.name "KgomotsoThulo"
+   14  git config --global user.email kgomotso.a.thulo@gmail.com
+   15  git clone https://github.com/KgomotsoThulo/MySite.git
+   16  ls
+   17  cd MySite/
+   18  ls
+   19  ls
+   20  pwd
+   21  mkdir git-basic-exercise
+   22  cd git-basic-exercise
+   23  ls
+   24  ls -a
+   25  git init
+   26  ls -a
+   27  git status
+   28  touch README.md
+   29  ls -a
+   30  git status
+   31  git og
+   32  git log
+   33  git add README.md
+   34  git status
+   35  git commit -m "initial commit"
+   36  git log
+   37  q
+   38  nano README.md
+   39  cat README.md
+   40  git commit -m "second commit"
+   41  nano README.md
+   42  git commit -m "third commit"
+   43  git log
+   44  git commit -m "second commit"
+   45  git add README.md
+   46  git commit -m "third commit"
+   47  gitlog
+   48  git log
+   49  cd../
+   50  ls
+   51  cd git-basic-exersises
+   52  cd git-basic-exercises
+   53  cd git-basic-exercise
+   54  cd ../
+   55  cd git-basic-exercises
+   56  mkdir git-basic-exercises
+   57  ls -a
+   58  cd git-basic-exercises
+   59  clear
+   60  ls -a
+   61  git init
+   62  ls -a
+   63  git status
+   64  touch README.md
+   65  ls -a
+   66  git status
+   67  git log
+   68  git add README.md
+   69  git status 
+   70  git reset
+   71  git status
+   72  git add README.md
+   73  git commit -m "initial commit"
+   74  git log
+   75  nano README.md
+   76  cat README.md
+   77  git status
+   78  git commit -m "Second commit"
+   79  git log
+   80  git -a -m "second commit"
+   81  git add README.md
+   82  git commit -m "Second commit"
+   83  git reset
+   84  git log
+   85  git reset --soft
+   86  git log
+   87  cat README.md
+   88  nano README.md
+   89  git add REDAME.md
+   90  git add README.md
+   91  git commit -m "Second commit"
+   92  nano README.md
+   93  git add README.md
+   94  git commit -m "third commit"
+   95  git log
+   96  git checkout 1c8471f94652fdf36e676fb16f75d51aec919547
+   97  cat README.md
+   98  git checkout master
+   99  cat README.md
+  100  git branch
+  101  git branch milkshake-flavours
+  102  git branch
+  103  git checkout milkshake-flavours
+  104  git branch
+  105  git checkout master
+  106  git checkout milkshake-flavours
+  107  nano milkshakes.md
+  108  git status
+  109  git add milkshakes.md
+  110  git commit  -m "added initial flavours"
+  111  git log
+  112  checkout master
+  113  git checkout master
+  114  git log
+  115  git branch history
+  116  checkout history
+  117  git checkout history
+  118  git log
+  119  git history > history.txt
+  120  history > history.txt
